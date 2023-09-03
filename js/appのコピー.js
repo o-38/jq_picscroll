@@ -1,0 +1,21 @@
+$('.out').mouseenter(function(){
+  $('.in')
+  .animate({marginTop:'-100px'})
+})
+$('.out').mouseleave(function(){
+  $('.in')
+  .animate({marginTop:'0'})
+})
+$('.pic').mouseenter(function(){
+  $('.pic_in')
+  .animate({margin:'10px',width:'280px',height:'180px'})
+  $('.image')
+  .animate({marginTop:'-15px',marginLeft:'-20px',width:'330px',height:'220px'})
+})
+$('.pic').mouseleave(function(){
+  $('.pic_in')
+  .animate({margin:'0',width:'300px',height:'200px'})
+  $('.image')
+  .animate({marginTop:'0',marginLeft:'0',width:'300px',height:'200px'})
+})
+
